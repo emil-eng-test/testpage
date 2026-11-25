@@ -1,3 +1,9 @@
-.sidnav {
-	width: 160p;	
+.sidenav {
+	height: 100%;
+	width: 160p;
+	position: fixed;
+	
+}
+.sidenav a {
+	
 }
