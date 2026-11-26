@@ -1,4 +1,3 @@
-
 /* General typography */
 body {
     margin: 0;
@@ -94,18 +93,23 @@ body {
     color: #d5d0c7;
 }
 
-
+/* Sidebar */
 .sidenav {
     height: calc(100vh - 65px);
     width: 160px;
+
     position: fixed;
     top: 65px;
     left: 0;
-    z-index: 1;
-    background-color: #C5C0B5;
+
+    background: #C5C0B5;
     border-right: 1px solid #ddd;
-    padding-top: 25px;
+
+    overflow-x: hidden;
+    padding-top: 20px;
     box-sizing: border-box;
+
+    z-index: 5;
 }
 
 .sidenav a {
