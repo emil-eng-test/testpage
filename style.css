@@ -28,6 +28,13 @@
   padding: 0px 10px;
 }
 
+body{
+  margin: 0;
+  font-family: Arial, sans-sarif;
+  background:#151515;
+  color:white;
+}
+
 .content {
     margin-left: 220px;
 }
